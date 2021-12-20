@@ -52,6 +52,6 @@ Faculty of Pharmacy (2009-2015)
 
 ## Languages
 *   ***Russian*** - native language
-*   ***English*** - A2(Elementary)
+*   ***English*** - [B2(Upper Intermediate)](https://www.efset.org/cert/udUMn2)
 
 
