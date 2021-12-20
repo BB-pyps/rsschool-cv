@@ -48,11 +48,10 @@ function getMiddle(s)
 ## Education and courses
 *   Ryazan State Medical University named after academician I.P. Pavlov, 
 Faculty of Pharmacy (2009-2015)
-*   HTML Academy's simulators (*HTML, CSS, JavaScript*)
+*   [HTML Academy's simulators (*HTML, CSS, JavaScript*)](https://htmlacademy.ru/profile/id1681643)
+*   [freeCodeCamp](https://www.freecodecamp.org/fccf0b401c0-2749-42d4-b98e-8fbf75b210a8)
 *   Learn JavaScript (during)
 
 ## Languages
 *   ***Russian*** - native language
 *   ***English*** - [B2(Upper Intermediate)](https://www.efset.org/cert/udUMn2)
-
-
