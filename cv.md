@@ -41,8 +41,8 @@ function getMiddle(s)
 ```
 
 ## Projects
-* [Landing page Botanica](https://github.com/BB-pyps/ZaverstaYOU)
-* [Landing page SCANDI](https://github.com/BB-pyps/BB-pyps.github.io)
+* [Landing page Botanica](https://bb-pyps.github.io/ZaverstaYOU/)
+* [Landing page SCANDI](https://bb-pyps.github.io/)
 * [Css Mem Slider](https://bb-pyps.github.io/cssMemSlider/cssMemSlider/index.html)
 
 ## Education and courses
