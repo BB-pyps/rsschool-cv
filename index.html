@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My super CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.min.css">
+    <script src="js/highlight.js"></script>
+    <script src="js/javascript.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>CV Vlasova Anastasia</title>
 </head>
-<body>
-    <p>Hello...It's me!</p>
+
+<body class='page-body'>
+    <header class='page-header'>
+        <div class='avatar'>
+            <img src='image/my_avatar.jpg' alt='My avatar' width='290' height='290'>
+        </div>
+        <div class='header-text'>
+            <h1>Anastasia Vlasova</h1>
+            <p>future front-end developer</p>
+        </div>
+        <nav class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li>
+                    <a class="menu__item" href="#contacts">Сontacts</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#about-myself">About myself</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#code-example">Code example</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#education-and-courses">Education and courses</a>
+                </li>
+                <li>
+                    <a class="menu__item" href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class='grid-container'>
+            <section class='contacts grid-item' id='contacts'>
+                <h2 class='grid-title'>Contacts</h2>
+                <ul class='contacts-list'>
+                    <li class='contact-item'>Phone:
+                        <a href='tel:+79521219116'>+7(952)121-91-16</a>
+                    </li>
+                    <li class='contact-item'>E-mail:
+                        <a href='mailto:anastprond@gmail.com'>anastprond@gmail.com</a>
+                    </li>
+                    <li class='contact-item'>Telegram:
+                        <a href='tg://resolve?domain=BBpyps'>@BBpyps</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class='about-myself  grid-item' id='about-myself'>
+                <h2 class='grid-title'>About myself</h2>
+                <p>I decided to study programming because I don't see any development in my profession. Now
+                    programming
+                    is
+                    just
+                    a hobby
+                    for me. But I think front-end development will keep my brains from drying out and set me on a
+                    bright
+                    new
+                    path.</p>
+            </section>
+
+            <section class='skills  grid-item' id='skills'>
+                <h2 class='grid-title'>Skills</h2>
+                <div class='soft-skills'>
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>diligence</li>
+                        <li>team play</li>
+                        <li>empathy</li>
+                    </ul>
+                </div>
+                <div class='hard-skills'>
+                    <h3>Hard skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (basic)</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class='code-example  grid-item' id='code-example'>
+                <h2 class='grid-title'>Code example</h2>
+                <h3>Get the Middle Character</h3>
+                <p>You are going to be given a word. Your job is to return the middle character of the word. If the
+                    word's
+                    length is odd, return the middle character. If the word's length is even, return the middle 2
+                    characters.
+                </p>
+                <pre>
+                <code class="javascript">
+function getMiddle(s)
+{
+let index;
+let result;
+if( s.length === 1){
+result = s[0];
+}else if(s.length % 2 === 1 && s.length !== 1){
+index = Math.floor(s.length/2);
+result = s[index];
+}else{
+index = Math.floor(s.length/2);
+result = s[index-1] + s[index];
+}
+return result;
+}
+                </code>
+            </pre>
+            </section>
+
+            <section class='projects  grid-item' id='projects'>
+                <h2 class='grid-title'>Projects</h2>
+                <ol>
+                    <li>
+                        <a href='https://bb-pyps.github.io/ZaverstaYOU/' target="_blank">Landing page: "Botanica" -
+                            designer
+                            bouquets in St. Petersburg</a>
+                    </li>
+                    <li>
+                        <a href='https://bb-pyps.github.io/' target="_blank">Landing page: "Scandi" - interior
+                            design</a>
+                    </li>
+                </ol>
+            </section>
+
+            <section class='education-and-courses  grid-item' id='education-and-courses'>
+                <h2 class='grid-title'>Education and courses</h2>
+                <ul>
+                    <li>Ryazan State Medical University named after academician I.P. Pavlov,
+                        Faculty of Pharmacy (2009-2015)</li>
+                    <li>HTML Academy's simulators (HTML, CSS, JavaScript)</li>
+                    <li>Learn JavaScript (during)</li>
+                </ul>
+            </section>
+
+            <section class='languages  grid-item' id='languages'>
+                <h2 class='grid-title'>Languages</h2>
+                <ul>
+                    <li><span>Russian</span> - native language</li>
+                    <li><span>English</span> - A2(Elementary). Now I am learning English using the app
+                        Duolingo</li>
+                </ul>
+            </section>
+            <div class="without-content"></div>
+        </div>
+    </main>
+    <footer class='page-footer'>
+        <a href='https://github.com/BB-pyps' target="_blank">
+            <img src='image/github_logo.svg' alt='My GitHub profile' width='120' height='120'>
+        </a>
+        <time datetime="2021-09-13" class='date-of-creation '>2021</time>
+        <a href='https://rs.school/js/' target="_blank">
+            <img src='image/rs_school_js_logo.svg' alt='The Rolling Scopes JavaScript/Front-end course' width='240'
+                height='120'>
+        </a>
+    </footer>
+    <script src='js/self_test.js'></script>
 </body>
+
 </html>
