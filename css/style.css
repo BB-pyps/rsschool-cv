@@ -49,11 +49,7 @@ body {
     }
 }
 
-/*@media (max-width:320px) {
-    body {
-        font-size: 40px;
-    }
-}*/
+
 
 .page-body {
     max-width: 1200px;
@@ -204,17 +200,9 @@ body {
     margin-left: 10px;
 }
 
- /*@media (max-width: 480px) {
-    .menu__btn {
-        right: 180px;
-        width: 70px;
-        height: 70px;
-  }
-}*/
-
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -223,7 +211,7 @@ body {
     transition-duration: .25s;
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -231,23 +219,23 @@ body {
   }
 }
 
-  .menu__btn > span::before {
+.menu__btn > span::before {
     content: '';
     top: -8px;
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .menu__btn > span::before  {
         top: -16px;  
   }
 }
 
-  .menu__btn > span::after {
+.menu__btn > span::after {
     content: '';
     top: 8px;
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .menu__btn > span::after  {
         top: 16px;  
   }
